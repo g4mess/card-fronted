@@ -34,7 +34,7 @@ h1{
 h2{
     color: whitesmoke;
     font-size: 22px;
-    margin-top: 5%;
+    margin-top: 10px;
 }
 p{
     color: grey;
@@ -44,7 +44,7 @@ p{
 ul{
     margin-top: -2%;
     padding: 0;
-    padding-left: 25%;
+    padding-left: 18%;
 }
 a{
     color: grey;
@@ -53,6 +53,14 @@ li{
     font-size: 19px;
     text-align: left;
     color: grey;
+    list-style: none;
+}
+ul > li::before {
+    content:"📑";
+    padding-right: 3%;
+}
+.modificador > li::before {
+    content:"✨";
 }
 .container--inicio{
     width: 70%;
